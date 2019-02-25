@@ -16,23 +16,26 @@
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <Home />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
+import Home from './pages/Home'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Home
   },
   data () {
     return {
       //
     }
+  },
+  methods: {
+  },
+  mounted: function () {
   }
 }
 </script>
